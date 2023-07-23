@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Login Form</title>
+    <link rel="stylesheet" href="index.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/021c70449c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="row">
+        <div class="col-12 col-md-4 d-md-block d-none">
+            <div class="bg-container01 d-flex flex-column justify-content-center">
+                <div class="text-center">
+                    <img src="http://brandio.io/envato/iofrm/html/images/graphic3.svg" class="image01">
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-8">
+            <div class="bg-container02 d-flex flex-column justify-content-center">
+                <div class="container">
+                    <div class="d-flex flex-row justify-content-center">
+                        <diV>
+                    <h1 class="heading01">Get more things done with <br> Loggin platform.</h1>
+                    <p class="paragraph01">Access to the most powerfull tool in the <br> entire design and web industry.</p>
+
+                          <p class="nav-link but002" id="nav-profile-tab" data-toggle="tab" data-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Register</p>
+                            <input class="form-control input01 mb-4 mt-2" type="email" placeholder="Enter Your Name">
+                            <input class="form-control input01 mb-4" type="email" placeholder="E-mail Address">
+                            <input class="form-control input01" type="password" placeholder="Enter Password">
+                            <button type="button" class="btn btn-info button01 mt-4">Register</button>
+                        </div>
+                       
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</diV>
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+    var forgetPassword = document.querySelector('.forget-password');
+    var resetPasswordBtn = document.getElementById('reset-password-btn');
+    var navHome = document.querySelector('#nav-home');
+    var navResetPassword = document.querySelector('#nav-reset-password');
+
+    forgetPassword.addEventListener('click', function() {
+      navHome.classList.remove('show', 'active');
+      navResetPassword.classList.add('show', 'active');
+    });
+
+    resetPasswordBtn.addEventListener('click', function() {
+      navResetPassword.classList.remove('show', 'active');
+      navHome.classList.add('show', 'active');
+    });
+  });
+    </script>
+</body>
+</html>
